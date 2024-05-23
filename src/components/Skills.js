@@ -77,7 +77,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Stack and Certifications</h2>
+              <h2>Tech Stack</h2>
               <p>My preferred stack is React/Next JS for frontend, Express and .NET for backend, MongoDB and PostgreSQL for data storage, and AWS for cloud services. But i have significant professional experience with the following technologies.</p>
               <section className="project" id="projects" style={{ "border-radius": "40px" }}>
                 <Container>
@@ -87,32 +87,61 @@ export const Skills = () => {
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                  <Nav.Link eventKey="first">Certifications</Nav.Link>
+                                  <Nav.Link eventKey="first">Languages</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                  <Nav.Link eventKey="second">Languages/Frameworks</Nav.Link>
+                                  <Nav.Link eventKey="second">Frameworks</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                  <Nav.Link eventKey="third">Libraries</Nav.Link>
                                 </Nav.Item>
                               </Nav>
                               <Tab.Content id="slideInUp" >
+                                
                                 <Tab.Pane eventKey="first">
-                                  <Container className="skill-heading"><h2>Certifications</h2></Container>
-                                  <Row className="badges">
-                                    <Col size={12} sm={6}>
-                                      <a href="https://www.credly.com/badges/52fd3f49-135e-4950-a2ea-1885acee4872/public_url" target="_blank"><img src={devBadge} alt="" /></a>
-                                    </Col>
-                                    <Col size={12} sm={6}>
-                                      <a href="https://www.credly.com/badges/ce5db11d-1fa9-4e39-b004-5f3c34d1a6da/public_url" target="_blank"><img src={pracBadge} alt="" /></a></Col>
-                                  </Row>
+                                <Container className="skill-heading"><h2>Languages</h2></Container>
+                                  <Col size={12}>
+                                  <span className="skill-text">C#</span>
+                                  <span className="skill-text">Typescript</span>
+                                  <span className="skill-text">HTML</span>
+                                  <span className="skill-text">CSS</span>
+                                  <span className="skill-text">SQL</span>
+                                  <span className="skill-text">Python</span>
+                                  <span className="skill-text">Dart</span>
+                                  <span className="skill-text">Javascript</span>
+                                  </Col>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                <Container className="skill-heading"><h2>Langauages/Frameworks</h2></Container>
-                                  <p>ALorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                <Container className="skill-heading"><h2>Frameworks</h2></Container>
+                                  <Col size={12}>
+                                  <span className="skill-text">NET Core</span>
+                                  <span className="skill-text">Node JS</span>
+                                  <span className="skill-text">Express JS</span>
+                                  <span className="skill-text">Next JS</span>
+                                  <span className="skill-text">Tailwind</span>
+                                  <span className="skill-text">SASS</span>
+                                  <span className="skill-text">Bootstrap</span>
+                                  <span className="skill-text">Flutter</span>
+                                  </Col>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                <Container className="skill-heading"><h2>Libraries</h2></Container>
+                                  <Col size={12}>
+                                  <span className="skill-text">C#</span>
+                                  <span className="skill-text">Typescript</span>
+                                  <span className="skill-text">HTML</span>
+                                  <span className="skill-text">CSS</span>
+                                  <span className="skill-text">SQL</span>
+                                  <span className="skill-text">Python</span>
+                                  <span className="skill-text">Dart</span>
+                                  <span className="skill-text">NET Core</span>
+                                  <span className="skill-text">Express JS</span>
+                                  <span className="skill-text">Next JS</span>
+                                  <span className="skill-text">Tailwind</span>
+                                  <span className="skill-text">SASS</span>
+                                  <span className="skill-text">Bootstrap</span>
+                                  <span className="skill-text">Flutter</span>
+                                  </Col>
                                 </Tab.Pane>
                               </Tab.Content>
                             </Tab.Container>
@@ -160,3 +189,14 @@ export const Skills = () => {
     </section> }*/
   )
 }
+
+{/* <Tab.Pane eventKey="first">
+                                  <Container className="skill-heading"><h2>Certifications</h2></Container>
+                                  <Row className="badges">
+                                    <Col size={12} sm={6}>
+                                      <a href="https://www.credly.com/badges/52fd3f49-135e-4950-a2ea-1885acee4872/public_url" target="_blank"><img src={devBadge} alt="" /></a>
+                                    </Col>
+                                    <Col size={12} sm={6}>
+                                      <a href="https://www.credly.com/badges/ce5db11d-1fa9-4e39-b004-5f3c34d1a6da/public_url" target="_blank"><img src={pracBadge} alt="" /></a></Col>
+                                  </Row>
+                                </Tab.Pane> */}
