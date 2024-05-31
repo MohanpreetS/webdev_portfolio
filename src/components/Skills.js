@@ -117,6 +117,7 @@ export const Skills = () => {
                                   <span className="skill-text">NET Core</span>
                                   <span className="skill-text">Node JS</span>
                                   <span className="skill-text">Express JS</span>
+                                  <span className="skill-text">Angular</span>
                                   <span className="skill-text">Next JS</span>
                                   <span className="skill-text">Tailwind</span>
                                   <span className="skill-text">SASS</span>
@@ -127,8 +128,8 @@ export const Skills = () => {
                                 <Tab.Pane eventKey="third">
                                 <Container className="skill-heading"><h2>Libraries</h2></Container>
                                   <Col size={12}>
-                                  <span className="skill-text">C#</span>
-                                  <span className="skill-text">Typescript</span>
+                                  <span className="skill-text">React JS</span>
+                                  <span className="skill-text">Angular</span>
                                   <span className="skill-text">HTML</span>
                                   <span className="skill-text">CSS</span>
                                   <span className="skill-text">SQL</span>
@@ -150,6 +151,16 @@ export const Skills = () => {
                   </Row>
                 </Container>
               </section>
+              <Container className="skill-heading" style={{ "margin-top": "20px" }}><h2>Certifications</h2></Container>
+            <section className="project" id="projects" style={{ "border-radius": "40px" }}>
+                                  <Row className="badges">
+                                    <Col size={12} sm={6}>
+                                      <a href="https://www.credly.com/badges/52fd3f49-135e-4950-a2ea-1885acee4872/public_url" target="_blank"><img src={devBadge} alt="" /></a>
+                                    </Col>
+                                    <Col size={12} sm={6}>
+                                      <a href="https://www.credly.com/badges/ce5db11d-1fa9-4e39-b004-5f3c34d1a6da/public_url" target="_blank"><img src={pracBadge} alt="" /></a></Col>
+                                  </Row>
+                                  </section>
             </div>
           </div>
         </div>
