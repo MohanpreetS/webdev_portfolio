@@ -154,7 +154,7 @@ export const Skills = () => {
               <Container className="skill-heading" style={{ "margin-top": "20px" }}><h2>Certifications</h2></Container>
             <section className="project" id="projects" style={{ "border-radius": "40px" }}>
                                   <Row className="badges">
-                                    <Col size={12} sm={6}>
+                                    <Col size={12} sm={6} style={{ "margin-bottom": "20px" }}>
                                       <a href="https://www.credly.com/badges/52fd3f49-135e-4950-a2ea-1885acee4872/public_url" target="_blank"><img src={devBadge} alt="" /></a>
                                     </Col>
                                     <Col size={12} sm={6}>
