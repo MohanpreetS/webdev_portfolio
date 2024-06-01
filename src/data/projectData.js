@@ -4,7 +4,7 @@ import ecomImg from "../assets/img/ecom.png"
 import taskImg from "../assets/img/task.png"
 import ycImg from "../assets/img/yc.png"
 import dojoImg from "../assets/img/dojo.png"
-// import blogImg from "../assets/img/blog.png"
+import blogImg from "../assets/img/blog.png"
 import portImg from "../assets//img/port.png"
 import sassImg from "../assets/img/sass.png"
 import tailImg from "../assets/img/tail.png"
@@ -42,6 +42,12 @@ const projects = [
       imgUrl: dojoImg,
       url: "https://github.com/MohanpreetS/NextJS_practice"
     },
+    {
+      title: "Portfolio",
+      description: "Frontend Development",
+      imgUrl: portImg,
+      url: "https://github.com/MohanpreetS/webdev_portfolio"
+    },
     
   ];
 
@@ -53,11 +59,12 @@ const projects = [
       url: "https://github.com/MohanpreetS/YelpCamp_project"
     },
     {
-      title: "Portfolio",
-      description: "Frontend Development",
-      imgUrl: portImg,
-      url: "https://github.com/MohanpreetS/webdev_portfolio"
+      title: "MySQL Blog",
+      description: "Backend+SQL",
+      imgUrl: blogImg,
+      url: "https://github.com/MohanpreetS/MySQL-Blog-Website"
     },
+    
     {
       title: "SASS project",
       description: "Frontend",
